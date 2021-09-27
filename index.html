@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./index.css">
+    
+    
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200&display=swap" rel="stylesheet">
+    
+    
+    <title>Assignment</title>
+    <style>
+        input.check-box {
+        width: 20px;
+        height: 20px;
+        } 
+    </style>
+</head>
+<body >
+    
+<!-- page1 -->
+<div class="mx-auto  text-wrap ps-4 pe-4 container1" id="blur-1">
+    <div class="d-flex justify-content-between fs-1">
+        <div class="Tasks">Tasks <span class="Lists">Lists</span></div>
+        <button onclick="newAddTodo()" class="button1"><div class="fas fa-plus-circle my-auto fs-1" id="firstCircle">
+            <span class="Lists">Add List</span></div> 
+        </button>
+    </div>
+    <br>
+    <div class="Lists fs-1 text-center" id="No-items">No Items in the todo list</div>
+</div>
+<div class="addedItemSpace"></div>
+    
+
+    <!-- page3 -->
+    <div class="pop_up text-center shadow1" id="pop-1" >
+        <div class="fs-4 mt-4">Add New List</div>
+        <input class="mt-3 shadow1 text-center" style="height: 2.5rem;" placeholder="New List" name="new-item" type="text">
+        <br>
+        <button onclick="addTodo()" class="button2" >Add</button>
+        <button onclick="closeTodo()" class="button2">Close</button>
+    </div>
+
+    <!-- page4 -->
+    <div class="pop_up text-center shadow1" id="pop-2" >
+        <div class="fs-4 mt-4">Add New Item</div>
+        <input class="mt-3 shadow1 text-center" style="height: 2.5rem;" placeholder="New List" name="new-item" type="text">
+        <br>
+        <button type="button"  onclick="addListItem()" class="button2" >Add</button>
+        <button type="button"  onclick="closeListItem()" class="button2">Close</button>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</html>

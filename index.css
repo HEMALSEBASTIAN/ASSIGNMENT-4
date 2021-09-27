@@ -1,0 +1,105 @@
+.container1{
+    width: 50rem;
+    max-width: 800px;  
+    margin-top: 10%;
+}
+.container2{
+    width: 15rem;
+    height: 20rem;
+    margin-bottom: 3rem;
+    
+    
+    text-align: center;
+}
+.Tasks{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bolder;
+    color: rgb(47, 52, 56);
+}
+.Lists{
+    font-family: 'Heebo', sans-serif;
+    font-weight: lighter;
+    color: rgb(161, 161, 161);
+}
+.button1{
+    border: none;
+    background: none;
+    
+}
+.button2{
+    width: fit-content;
+    border: none; 
+    background-color: orangered; 
+    display: inline-block;
+    color: white;
+    margin-top: 1rem;
+    padding: 8px 16px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 32px;
+
+}
+.button3{
+    width: fit-content;
+    border: none; 
+    background-color: orangered; 
+    display: inline-block;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 32px;
+
+}
+.fa-plus-circle{
+    color: orangered;
+}
+.fa-arrow-circle-left{
+    color: orangered;
+}
+.addedItemSpace{
+    width: 50rem;
+    height: auto;
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+}
+.shadow1{
+    box-shadow: 3px 3px 6px 3px rgb(211, 210, 210);
+    color: rgba(29, 13, 1, 0.863);
+    border-radius: 5px/5px;
+    border: 1.5px solid orangered; 
+}
+.Completed{
+    color: orangered;
+    text-decoration-color: orangered;
+    text-decoration-line: line-through;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin-top: 1%;
+}
+.check-box{
+    margin-right: 4%;
+    margin-left: 20%;
+}
+.pop_up{
+    width:25rem;
+    height: 12rem; 
+    margin: auto;
+    color:orangered;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    
+}
+.objective{
+    height: 12rem;
+}
